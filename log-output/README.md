@@ -1,1 +1,2 @@
-Deploy with ```kubectl create deployment logoutput-dep --image=roslinmahmud/log-output```
+Deploy with ```kubectl apply -f manifests```
+Goto ```http://localhost:8000/docs``` to request the current status (timestamp and the random string) 
